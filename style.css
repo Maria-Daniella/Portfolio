@@ -405,10 +405,15 @@ section .title::after{
 .teams .carousel .card:hover .box{
     transform: scale(1.05);
 }
-.teams .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
-    margin: 10px 0 7px 0;
+.teams .carousel .card:hover .box{
+    transform: scale(1.05);
+}
+.teams .carousel .text{
+    color: crimson;   
+}
+.teams .carousel .text:hover .text{
+    color: #c5188b;
+    
 }
 .teams .carousel .card img{
     height: 150px;
